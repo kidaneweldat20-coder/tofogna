@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ti">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ርኸቡና - ጦፈኛ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <h1>ጦፈኛ</h1>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="current">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-page-container">
+        <div class="contact-info">
+            <h2>ርኸቡና</h2>
+            <div class="underline"></div>
+            <p>ንዝኾነ ናይ ስነ-ጽሑፍ ስራሕቲ ወይ ርእይቶ፡ በዚ ዝስዕብ ቅጥዒ መልእኽቲ ስደዱለይ።</p>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form action="https://formspree.io/f/xeevgrwk" method="POST">
+                <div class="input-group">
+                    <label>ስምኩም</label>
+                    <input type="text" name="name" placeholder="ስምኩም ኣብዚ ጸሓፉ" required>
+                </div>
+                
+                <div class="input-group">
+                    <label>ኢመይልኩም</label>
+                    <input type="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label>መልእኽትኹም</label>
+                    <textarea name="message" rows="5" placeholder="መልእኽትኹም ኣብዚ ጸሓፉ..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">መልእኽቲ ስደድ</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ጦፈኛ - ኩሉ መሰል ዝተሓለወ እዩ።</p>
+        <div class="social-links">
+            <a href="https://youtube.com/@ጦፈኛ_boy" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+            <a href="https://tiktok.com/@tofogna" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            <a href="https://t.me/tofogna11" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
